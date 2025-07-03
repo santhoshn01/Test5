@@ -54,7 +54,7 @@ tasks.named('shadowJar') {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            artifact shadowJar
+            artifact bootJar
         }
     }
 }
