@@ -9,6 +9,6 @@
         Minimal ruleset for PMD.
     </description>
 
-    <rule ref="category/java/bestpractices.xml/UnusedImports" />
+    <rule ref="category/java/bestpractices.xml/AvoidPrintStackTrace" />
     <rule ref="category/java/errorprone.xml/EmptyCatchBlock" />
 </ruleset>
